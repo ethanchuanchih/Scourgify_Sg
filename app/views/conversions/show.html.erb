@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @conversion.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @conversion.email %>
+</p>
+
+<%= link_to 'Edit', edit_conversion_path(@conversion) %> |
+<%= link_to 'Back', conversions_path %>
